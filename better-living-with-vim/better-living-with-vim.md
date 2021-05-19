@@ -5,7 +5,7 @@ class:
   - lead
 paginate: true
 backgroundColor: #fff
-backgroundImage: url('/images/background-6.png')
+backgroundImage: url('images/background-6.png')
 ---
 
 # Better Living with VIM
