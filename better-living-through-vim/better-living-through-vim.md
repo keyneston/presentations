@@ -8,7 +8,7 @@ backgroundColor: #fff
 backgroundImage: url('images/background-6.png')
 ---
 
-# Better Living with VIM
+# Better Living Through VIM
 
 Tabitha Rollins
 Engineer with Cloud Networking Team @ Elastic
