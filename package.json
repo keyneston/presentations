@@ -1,10 +1,5 @@
 {
-  "@marp-team/marp-cli": "^1.1.1",
-  "scripts": {
-    "build": "rimraf dist && npm run -s og-image && npm run -s deck",
-    "deck": "marp --no-stdin better-living-with-vim/better-living-with-vim.md -o dist/index.html && cpy \"assets/**/*\" dist/assets",
-    "now-build": "npm run -s deck",
-    "og-image": "marp better-living-with-vim/better-living-with-vim.md -o dist/og-image.jpg",
-    "start": "marp -ps ."
+  "dependencies": {
+    "@marp-team/marpit": "^2.0.1"
   }
 }
