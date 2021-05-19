@@ -5,11 +5,6 @@ run:
 	marp -s .
 
 .PHONY: build
-build: clean
+build:
 	cp -r ./images ${OUTPUTDIR}/images
-	yarn run marp better-living-with-vim/better-living-with-vim.md -o dist/index.html --url=${URL}
-
-.PHONY: clean
-clean:
-	rm -rf ${OUTPUTDIR}/
-	mkdir -p ${OUTPUTDIR}
+	yarn run marp better-living-with-vim/better-living-with-vim.md -o dist/better-living-with-vim.html --url=${URL}
