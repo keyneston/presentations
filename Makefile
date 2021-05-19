@@ -1,4 +1,4 @@
-OUTPUTDIR=dist
+OUTPUTDIR=./dist
 
 .PHONY: all
 all: clean dist/index.html dist/better-living-with-vim.html

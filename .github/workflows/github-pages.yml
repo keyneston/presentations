@@ -27,7 +27,7 @@ jobs:
 
       - name: Build Marp slide deck
         run: |
-          (cd better-living-with-vim && make build)
+          make all
         env:
           # Please update URL if you want to use custom domain
           URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}
