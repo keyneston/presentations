@@ -296,5 +296,5 @@ git clone git@github.com:tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive
 # References
 
 - My Dotfiles: [github.com/keyneston/vimrc](https://github.com/keyneston/vimrc)
-- This presentation: [github.com/keyneston/presentations/better-living-with-vim](https://github.com/keyneston/presentations/tree/main/better-living-with-vim)
+- This presentation [talks.keyneston.com](http://talks.keyneston.com/) or source [github.com/keyneston/presentations](https://github.com/keyneston/presentations/tree/main/better-living-with-vim)
 - @tabitha or #vim on Slack
