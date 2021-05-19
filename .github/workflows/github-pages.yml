@@ -3,7 +3,7 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - main
+      - none # this workflow is based off old marp, doesn't map to current marp afaik
 
 jobs:
   build:
